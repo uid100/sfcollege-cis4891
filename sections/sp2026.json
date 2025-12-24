@@ -27,8 +27,8 @@
   "*startDate": "2026-01-07T08:00:00",
   "*endDate": "2026-05-01T08:00:00",
   "schedule": {
-    "day": "",
+    "day": "Online",
     "time": "",
-    "location": "Web. Online Course."
+    "location": "Web"
   }
 }
