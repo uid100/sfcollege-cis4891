@@ -30,7 +30,7 @@
   "outcomes": "outcomes/clo.json",
   "objectives": "outcomes/slo.json",
   "textbook": "materials/textbook.json",
-    "content": {
+  "content": {
     "modules": {
       "01-concept": {
         "title": "Module 1 - SDLC and Concept Definition",
