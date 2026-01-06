@@ -43,10 +43,6 @@
             "title": "Module Overview",
             "type": "content",
             "source": "/content/module1.html"},
-          "Chapter-2": { 
-            "title": "Installing Python",
-            "type": "content", 
-            "resource": "https://content/modules/01-sequential/lesson1/page2.html"},
           "hello-world": {
             "title": "Hello, World!",
             "type": "content",
