@@ -54,13 +54,13 @@
             "type": "content",
             "source": "content/01-sdlc.html"
           },
-          "concept": {
+          "concept-investigation": {
             "title": "Concept Investigation",
             "type": "assignment",
             "source": "content/01-concept.html"
           },
           "end": {
-            "title": "End Module",
+            "title": "End of Module 1: SDLC and Concept Definition",
             "type": "content",
             "source": "/content/end-module.html"
           }
