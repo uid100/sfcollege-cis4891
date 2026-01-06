@@ -35,6 +35,10 @@
       "01-concept": {
         "title": "Module 1 - SDLC and Concept Definition",
         "pages": {
+          "implementation-note": {
+            "1": "use *resource* for absolute (external) links",
+            "2": "use *source* for course-repo relative (internal) links, courseBase + source"
+          },
           "overview": { 
             "title": "Module Overview",
             "type": "content",
