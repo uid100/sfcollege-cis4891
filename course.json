@@ -42,18 +42,27 @@
           "overview": { 
             "title": "Module Overview",
             "type": "content",
-            "source": "/content/module1.html"},
-          "hello-world": {
-            "title": "Hello, World!",
+            "source": "/content/module1.html"
+          },
+          "intro": {
+            "title": "About me",
+            "type": "discussion",
+            "source": "content/01-intro.html"
+          },
+          "sdlc": {
+            "title": "Software Development Life Cycle",
             "type": "content",
-            "resource": "https://uid100.github.io/py/01-sequential/pages/hello-world.html"
-          }
-        },
-        "exercises": {
-          "lab": {
-            "title": "Lab #1 - Sequential Processing",
-            "taskListUrl": "https://uid100.github.io/py/01-sequential/ex/task-list.json",
-            "fragmentsBase": "https://uid100.github.io/py/01-sequential/ex/"
+            "source": "content/01-sdlc.html"
+          },
+          "concept": {
+            "title": "Concept Investigation",
+            "type": "assignment",
+            "source": "content/01-concept.html"
+          },
+          "end": {
+            "title": "End Module",
+            "type": "content",
+            "source": "/content/end-module.html"
           }
         }
       },
