@@ -32,115 +32,100 @@
   "textbook": "materials/textbook.json",
   "content": {
     "modules": {
+       "00-implementation-notes": {
+        "title": "Module 00 - notes only",
+        "pages": {
+          "implementation-note": { "1": "use *resource* for absolute (external) links", "2": "use *source* for course-repo relative (internal) links, courseBase + source" }
+        }
+      },
       "01-concept": {
         "title": "Module 1 - SDLC and Concept Definition",
         "pages": {
-          "implementation-note": {
-            "1": "use *resource* for absolute (external) links",
-            "2": "use *source* for course-repo relative (internal) links, courseBase + source"
-          },
-          "overview": { 
-            "title": "Module Overview",
-            "type": "content",
-            "source": "/content/module1.html"
-          },
-          "intro": {
-            "title": "About me",
-            "type": "discussion",
-            "source": "content/01-intro.html"
-          },
-          "sdlc": {
-            "title": "Software Development Life Cycle",
-            "type": "content",
-            "source": "content/01-sdlc.html"
-          },
-          "concept": {
-            "title": "Concept Investigation",
-            "type": "assignment",
-            "source": "content/01-concept.html"
-          },
-          "end": {
-            "title": "End of Module 1: SDLC and Concept Definition",
-            "type": "content",
-            "source": "/content/end-module.html"
-          }
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module1.html" },
+          "intro": { "title": "About me", "type": "discussion", "source": "content/01-intro.html" },
+          "sdlc": { "title": "Software Development Life Cycle", "type": "content", "source": "content/01-sdlc.html" },
+          "concept": { "title": "Concept Investigation", "type": "assignment", "source": "content/01-concept.html" },
+          "end": { "title": "End of Module 1: SDLC and Concept Definition", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "02-conditional": {
-        "title": "Module 2 - Conditional Processing",
+      "02-planing": {
+        "title": "Module 2 - Project Planning",
         "pages": {
-          "page1": { "title": "Conditional Statements","type": "content","source": "content/modules/02-conditional/lesson1/page1.html"},
-          "page2": { "title": "Boolean Logic", "type": "content", "source": "content/modules/02-conditional/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
+          "api": { "title": "REST APIs", "type": "content", "source": "content/02-rest-apis.html" },
+          "spec": { "title": "Project Specification", "type": "assignment", "source": "content/02-project-spec.html" },
+          "end": { "title": "End of Module 2: Project Planning", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "03-iteration": {
-        "title": "Module 3 - Repetitive Processing",
+      "03-design": {
+        "title": "Module 3 - Preliminary Design",
         "pages": {
-          "page1": { "title": "Loops","type": "content","source": "content/modules/03-repetition/lesson1/page1.html"},
-          "page2": { "title": "Loop Control", "type": "content", "source": "content/modules/03-repetition/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module3.html" },
+          "mgmt": { "title": "Software Project Management", "type": "content", "source": "content/03-software-project-management.html" },
+          "wireframe": { "title": "Wireframes and Storyboards", "type": "content", "source": "content/03-wireframes-and-storyboards.html" },
+          "soc": { "title": "Modular Code", "type": "content", "source": "content/03-modular-code.html" },
+          "sysengr": { "title": "User Stories and Use-Cases", "type": "content", "source": "content/03-user-stories-and-use-cases.html" },
+          "design": { "title": "Module 3 - Preliminary Design", "type": "assignment", "source": "content/03-design.html" },
+          "end": { "title": "End of Module 3: Preliminary Design", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "04-functions": {
-        "title": "Module 4 - Functions",
+      "04-requirements": {
+        "title": "Module 4 - Requirements and Testing",
         "pages": {
-          "page1": { "title": "Functions","type": "content","source": "content/modules/04-functions/lesson1/page1.html"},
-          "page2": { "title": "Function Control", "type": "content", "source": "content/modules/04-functions/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module4.html" },
+          "auth": { "title": "User Authentication", "type": "content", "source": "content/04-authentication.html" },
+          "requirements": { "title": "Requirements Management", "type": "content", "source": "content/04-requirements-management.html" },
+          "testing": { "title": "Test Planning", "type": "content", "source": "content/04-test-planning.html" },
+          "pdr": { "title": "Module 4 - Preliminary Design Review", "type": "discussion", "source": "content/04-design-review.html" },
+          "reqt-table": { "title": "Software Requirements Table", "type": "assignment", "source": "content/04-requirements-table.html" },
+          "end": { "title": "End of Module 4: Requirements and Testing", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "05-testing-debugging": {
-        "title": "Module 5 - Testing and Debugging",
+      "05-data": {
+        "title": "Module 5 - Data-Driven Design",
         "pages": {
-          "page1": { "title": "Testing","type": "content","source": "content/modules/05-testing-debugging/lesson1/page1.html"},
-          "page2": { "title": "Debugging", "type": "content", "source": "content/modules/05-testing-debugging/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module5.html" },
+          "entities": { "title": "Entities, Relations, Tables, and Data Classes", "type": "content", "source": "content/05-entities.html" },
+          "erd": { "title": "Entity Relationship Diagram", "type": "assignment", "source": "content/05-erd.html" },
+          "end": { "title": "End of Module 5: Data-Driven Design", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "06-collections": {
-        "title": "Module 6 - Collections",
+      "06-agile": {
+        "title": "Module 6 - Agile Software Development",
         "pages": {
-          "page1": { "title": "Lists","type": "content","source": "content/modules/06-collections/lesson1/page1.html"},
-          "page2": { "title": "Dictionaries", "type": "content", "source": "content/modules/06-collections/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module6.html" },
+          "agile": { "title": "Agile Software Development", "type": "content", "source": "content/06-agile-development.html" },
+          "fdr": { "title": "Module 6 - Final Design Review", "type": "discussion", "source": "content/06-design-review.html" },
+          "proto": { "title": "Prototype", "type": "assignment", "source": "content/06-prototype.html" },
+          "end": { "title": "End of Module 6: Agile Software Development", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "07-files": {
-        "title": "Module 7 - File Handling",
+        "title": "Module 7 - APIs & TDD",
         "pages": {
-          "page1": { "title": "File I/O","type": "content","source": "content/modules/07-files/lesson1/page1.html"},
-          "page2": { "title": "Working with Files", "type": "content", "source": "content/modules/07-files/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module7.html" },
+          "dataio": { "title": "Data Access", "type": "assignment", "source": "content/07-dataio.html" },
+          "end": { "title": "End of Module 7: APIs & TDD", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "08-exceptions": {
-        "title": "Module 8 - Exception Handling",
+      "08-classes": {
+        "title": "Module 8 - Responsive Design",
         "pages": {
-          "page1": { "title": "Exceptions","type": "content","source": "content/modules/08-exceptions/lesson1/page1.html"},
-          "page2": { "title": "Handling Exceptions", "type": "content", "source": "content/modules/08-exceptions/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module8.html" },
+          "agile": { "title": "Agility and Agile Methodologies", "type": "content", "source": "content/08-agile-development.html" },
+          "plan": { "title": "Sprint 1 Plan", "type": "assignment", "source": "content/08-sprint-plan.html" },
+          "review": { "title": "Sprint 1 Review / Sprint 2 Plan", "type": "assignment", "source": "content/08-sprint-review.html" },
+          "end": { "title": "End of Module 8: Delivering the Product", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "09-dictionaries": {
-        "title": "Module 9 - Advanced Data Structures",
+      "09-delivery": {
+        "title": "Module 09 - Delivering the Product",
         "pages": {
-          "page1": { "title": "Advanced Lists","type": "content","source": "content/modules/09-dictionaries/lesson1/page1.html"},
-          "page2": { "title": "Advanced Dictionaries", "type": "content", "source": "content/modules/09-dictionaries/lesson1/page2.html"}
-        }
-      },
-      "10-classes": {
-        "title": "Module 10 - Object-Oriented Programming",
-        "pages": {
-          "page1": { "title": "Classes and Objects","type": "content","source": "content/modules/10-classes/lesson1/page1.html"},
-          "page2": { "title": "Methods and Attributes", "type": "content", "source": "content/modules/10-classes/lesson1/page2.html"}
-        }
-      },
-      "11-inheritance": {
-        "title": "Module 11 - Inheritance and Polymorphism",
-        "pages": {
-          "page1": { "title": "Inheritance","type": "content","source": "content/modules/11-inheritance/lesson1/page1.html"},
-          "page2": { "title": "Polymorphism", "type": "content", "source": "content/modules/11-inheritance/lesson1/page2.html"}
-        }
-      },
-      "12-webapps": {
-        "title": "Module 12 - Web Applications",
-        "pages": {
-          "page1": { "title": "Web Frameworks","type": "content","source": "content/modules/12-webapps/lesson1/page1.html"},
-          "page2": { "title": "Building Web Apps", "type": "content", "source": "content/modules/12-webapps/lesson1/page2.html"}
+          "overview": { "title": "Module Overview", "type": "content", "source": "/content/module9.html" },
+          "testing": { "title": "Testing and Closeout", "type": "content", "source": "content/09-testing.html" },
+          "demo": { "title": "Project Demonstration", "type": "discussion", "source": "content/09-demo.html" },
+          "review": { "title": "Project & Process Review", "type": "assignment", "source": "content/09-review.html" },
+          "end": { "title": "End of Module 9: Delivering the Product", "type": "content", "source": "/content/end-module.html"}
         }
       }
     }
