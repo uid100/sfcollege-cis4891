@@ -54,7 +54,7 @@
             "type": "content",
             "source": "content/01-sdlc.html"
           },
-          "concept-investigation": {
+          "concept": {
             "title": "Concept Investigation",
             "type": "assignment",
             "source": "content/01-concept.html"
