@@ -1,0 +1,34 @@
+{ "status": "DRAFT JSON CONTENT - DO NOT USE",
+  "canvas": {
+    "server": "https://courses.sfcollege.edu/",
+    "coursePath": "/courses/471048"
+  },
+  "sectionNumber": "W26 CIS4891.0M1",
+  "courseId": "W26 CIS4891.0M1",
+  "term": "Spring 2024",
+  "dates": {
+    "start": "2024-01-08",
+    "end": "2024-05-02",
+    "withdraw": "2024-03-26",
+    "classesEnd": "2024-04-26",
+    "finals": "2024-04-28",
+    "finalsEnd": "2024-05-03",
+    "gradesDue": "2024-05-05",
+    "gradesPosted": "2024-05-06",
+    "holidays": {
+      "mlkDay": "2024-01-15",
+      "springBreak": {
+        "start": "2024-03-11",
+        "end": "2024-03-16"
+      },
+      "memorialDay": "2024-05-27"
+    }
+  },
+  "*startDate": "2024-01-08T08:00:00",
+  "*endDate": "2024-05-02T08:00:00",
+  "schedule": {
+    "day": "Online",
+    "time": "",
+    "location": "Web"
+  }
+}

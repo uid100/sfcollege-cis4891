@@ -1,0 +1,35 @@
+{ 
+  "status": "DRAFT JSON CONTENT - DO NOT USE",
+  "canvas": {
+    "server": "https://courses.sfcollege.edu/",
+    "coursePath": "/courses/486348"
+  },
+  "sectionNumber": "W26 CIS4891.0M1",
+  "courseId": "W26 CIS4891.0M1",
+  "term": "Spring 2025",
+  "dates": {
+    "start": "2025-01-08",
+    "end": "2025-04-26",
+    "withdraw": "2025-03-26",
+    "classesEnd": "2025-04-26",
+    "finals": "2025-04-27",
+    "finalsEnd": "2025-05-02",
+    "gradesDue": "2025-05-04",
+    "gradesPosted": "2025-05-05",
+    "holidays": {
+      "mlkDay": "2025-01-20",
+      "springBreak": {
+        "start": "2025-03-17",
+        "end": "2025-03-21"
+      },
+      "memorialDay": "2025-05-26"
+    }
+  },
+  "*startDate": "2025-01-08T08:00:00",
+  "*endDate": "2025-04-26T08:00:00",
+  "schedule": {
+    "day": "Online",
+    "time": "",
+    "location": "Web"
+  }
+}
