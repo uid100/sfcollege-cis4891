@@ -38,7 +38,7 @@
           "overview": { 
             "title": "Module Overview",
             "type": "content",
-            "resource": "https://uid100.github.io/py/ch1.html"},
+            "source": "/content/module1.html"},
           "Chapter-2": { 
             "title": "Installing Python",
             "type": "content", 
