@@ -133,6 +133,7 @@
         "pages": {
           "late-policy": { "title": "Late Policy", "type": "page", "resource": "https://uid100.github.io/edu-core/shared/policies/late-policy.html" },
           "online": { "title": "Online Classes", "type": "page", "resource": "https://uid100.github.io/edu-core/shared/policies/online-classes.html" }
+        }
       }
     }
   },
