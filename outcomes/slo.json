@@ -1,3 +1,9 @@
 [
-  { "id": "LO #1", "objective": "" }
+  { "id": "SLO #1", "objective": "Develop and implement a project assessment and needs analysis"},
+  { "id": "SLO #2", "objective": "Develop a completed project plan"},
+  { "id": "SLO #3", "objective": "Create and implement a project architecture document"},
+  { "id": "SLO #4", "objective": "Develop a software project based on the needs analysis, project plan and the project architecture documents"},
+  { "id": "SLO #5", "objective": "Test and implement the software project"},
+  { "id": "SLO #6", "objective": "Develop appropriate user documentation"},
+  { "id": "SLO #7", "objective": "Develop an update plan"}
 ]

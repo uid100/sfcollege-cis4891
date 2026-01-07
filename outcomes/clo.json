@@ -1,3 +1,14 @@
 [
-  { "id": "CLO #1", "outcome": "" }
+  { 
+    "id": "CLO #1", 
+    "outcome": "Apply the software development lifecycle (SDLC) to plan and build a simple software application from concept through implementation."
+  },
+  { 
+    "id": "CLO #2", 
+    "outcome": "Create basic software development project artifacts, including requirements, data structures, user interfaces, and tests, to support application development."
+  },
+  { 
+    "id": "CLO #3", 
+    "outcome": "Collaborate and manage a small software project, using simple planning, execution, and documentation practices." 
+  }
 ]
