@@ -1,6 +1,7 @@
 {
   "college": "sfcollege",
   "instructor": "dan-sullivan",
+  "instructorEmail": "daniel.sullivan@sfcollege.edu",
   "courseNumber": "CIS 4891",
   "courseTitle": "Senior Capstone Project",
   "units": 3,
