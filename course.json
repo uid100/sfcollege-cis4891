@@ -49,7 +49,7 @@
           "end": { "title": "End of Module 1: SDLC and Concept Definition", "type": "content", "source": "/content/end-module.html"}
         }
       },
-      "02-planing": {
+      "02-planning": {
         "title": "Module 2 - Project Planning",
         "pages": {
           "overview": { "title": "Module Overview", "type": "content", "source": "/content/module2.html" },
