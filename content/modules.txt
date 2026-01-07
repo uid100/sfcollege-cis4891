@@ -1,0 +1,9 @@
+Module 1 - SDLC &amp; Concept Definition
+Module 2 - Project Planning
+Module 3 - UI/UX &amp; Single Responsibility
+Module 4 - Requirements &amp; Test
+Module 5 - Data-Driven Design
+Module 6 - Agile Software Development
+Module 7 - APIs &amp; TDD
+Module 8 - Responsive Design
+Module 9 - Delivering the Product

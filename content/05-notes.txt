@@ -1,0 +1,32 @@
+Requirements 
+
+capturing originating requirements
+
+hierarchy - decomposing
+
+top level
+system level
+software level
+component level
+
+Video:  The Expert
+
+Test
+
+testable!
+
+unit, component, integration, load, 
+
+v&v, TDD, RTM
+
+TRR
+
+
+
+
+Q:  when does test take place?
+
+
+
+
+Test
