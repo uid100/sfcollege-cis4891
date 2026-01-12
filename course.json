@@ -116,7 +116,7 @@
           "agile": { "title": "Agility and Agile Methodologies", "type": "content", "source": "content/08-agile-development.html" },
           "plan": { "title": "Sprint 1 Plan", "type": "assignment", "source": "content/08-sprint-plan.html" },
           "review": { "title": "Sprint 1 Review / Sprint 2 Plan", "type": "assignment", "source": "content/08-sprint-review.html" },
-          "end": { "title": "End of Module 8: Delivering the Product", "type": "content", "source": "/content/end-module.html"}
+          "end": { "title": "End of Module 8: Responsive Design", "type": "content", "source": "/content/end-module.html"}
         }
       },
       "09-delivery": {
