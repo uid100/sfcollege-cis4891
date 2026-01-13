@@ -1,8 +1,5 @@
 <p>&nbsp;</p>
 <div id="api-build" style="padding: 20px;">
-    <div id="navigation" style="padding: 20px;">
-        <p style="margin: auto;"><a style="color: navy;" href="courses/456310"> <img id="project-jpg" style="display: block; padding: 30px;" src="https://courses.sfcollege.edu/courses/500634/files/60005944/preview" alt="project icon" width="150" data-api-returntype="File" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005944" /> Home </a></p>
-    </div>
     <div id="objective" style="padding: 20px;">
         <h2 class="alert">Data I/O</h2>
         <p>The data structure and I/O is a fundamental architectural building block for any development solution. Using APIs for data access helps support the design principle of separation of concerns. If the data source is compartmentalized, it is easier to isolate components for reusability, maintainability and extensibility.</p>
@@ -43,7 +40,11 @@
             <li>Open a new browser window (apart from the one running Swagger). for the URL, use https://localhost:[port]/WeatherForecast. You can get the port number from the window running Swagger, or also from the command-line output where the API is <em>running</em>. It will tell you which port the https service is listening. If you review the Controllers/WeatherForecastController, you'll find a Get() method which is generating 5 days of random values for the <code>WeatherForecast</code> data model. Back in the browser window (https://localhost:7093/weatherforecast, this is not case sensitive) you can review the JSON-formatted data output.</li>
             <li>
                 <p>My default browser is Chrome, yours may be something else. Find and install a JSON formatter browser extension, and refresh your data page. It should look something like this:</p>
-                <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://courses.sfcollege.edu/courses/500634/files/60005888/preview" alt="weather forcast JSON response" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005888" data-api-returntype="File" /></p>
+                <p>
+                    <img 
+                        style="display: block; margin-left: auto; margin-right: auto;" 
+                        src="https://uid100.github.io/sfcollege-cis4891/images/forecast-json.png" 
+                        alt="weather forcast JSON response" /></p>
                 <p>This is still simulated data, but you can see that the data model, from <strong>WeatherForecast.cs</strong> is working with the <strong>WeatherForecastController</strong> to generate the data instance.</p>
             </li>
             <li>
