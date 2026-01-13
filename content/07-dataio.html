@@ -121,7 +121,11 @@
 </pre>
             </li>
         </ol>
-        <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://courses.sfcollege.edu/courses/500634/files/60005904/preview" alt="Student JSON API response" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005904" data-api-returntype="File" /></p>
+        <p>
+            <img
+                style="display: block; margin-left: auto; margin-right: auto;" 
+                src="https://uid100.github.io/sfcollege-cis4891/images/student-data-json.png" 
+                alt="Student JSON API response" /></p>
     </div>
     <div id="hosting" style="padding: 20px;">
         <h3 class="alert">Hosting</h3>
@@ -129,7 +133,12 @@
         <p>Now that my code is working and successfully hosting my API requests locally, it would be beneficial if I could access this from the network. As a security measure, especially if you intende to have write (PUT/POST) access with your API, you should be aware of, and implement security for the API. In most cases, I would deploy the API as a cloud-hosted web service and limit firewall exceptions to my development IP address and the web application which is intended to connect. That is an interesting discussion, but beyond the scope of this task, so considering the minimal risk. Here's a simple walk-through to deploy the API to the Azure cloud.</p>
         <p class="ic-flash-info">This section is optional and it assumes that you have an active MS Azure account.</p>
         <ol>
-            <li>From the <strong>Solution Explorer</strong> right-click the project and select <strong>Publish</strong> from the context menu. You could also select Publish from the <strong>Build</strong> menu. <img style="display: block; margin-left: auto; margin-right: auto;" src="https://courses.sfcollege.edu/courses/500634/files/60005934/preview" alt="Publish menu selection" width="379" height="255" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005934" data-api-returntype="File" /></li>
+            <li>From the <strong>Solution Explorer</strong> right-click the project and select <strong>Publish</strong> 
+                from the context menu. You could also select Publish from the <strong>Build</strong> menu. 
+                <img 
+                    style="display: block; margin-left: auto; margin-right: auto;" 
+                    src="https://uid100.github.io/sfcollege-cis4891/images/publish.png" 
+                    alt="Publish menu selection" width="379" height="255" /></li>
             <li>Choose Azure <em>[Next]</em> from the target dialog and Azure App Service (Windows)<em>[Next]</em></li>
             <li>For the <strong>App Service</strong>, <em>Create New</em>.
                 <div class="ic-flash-info"><strong>STOP.</strong> Read this section before continuing.</div>
@@ -147,11 +156,20 @@
             </li>
         </ol>
         <p>Since there is no required API key or any firewall restrictions, the API data can be accessed from anywhere on the internet, including mobile devices.</p>
-        <p><img src="https://courses.sfcollege.edu/courses/500634/files/60005896/preview" alt="/student endpoint API response" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005896" data-api-returntype="File" /></p>
+        <p>
+            <img 
+                src="https://uid100.github.io/sfcollege-cis4891/images/student-api-azure.png" 
+                alt="/student endpoint API response" /></p>
         <p>Even mobile devices.</p>
-        <p><img src="https://courses.sfcollege.edu/courses/500634/files/60005886/preview" alt="mobile access" width="230" height="497" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005886" data-api-returntype="File" /></p>
+        <p>
+            <img 
+                src="https://uid100.github.io/sfcollege-cis4891/images/student-api-mobile.jpeg" 
+                alt="mobile access" width="230" height="497" /></p>
         <p>In addition to the Student data, the original WeatherForecast controller and data model are still active on the API.</p>
-        <p><img src="https://courses.sfcollege.edu/courses/500634/files/60005940/preview" alt="/weatherforecast endpoint API response" data-api-endpoint="https://courses.sfcollege.edu/api/v1/courses/500634/files/60005940" data-api-returntype="File" /></p>
+        <p>
+            <img 
+                src="https://uid100.github.io/sfcollege-cis4891/images/weatherforecast-api.png" 
+                alt="/weatherforecast endpoint API response" /></p>
         <p>Since this is deployed and currently accumulating no cost, and since the security risk is low, it could conceivably be left running indefinitely, but since it is one of many development projects, I will regularly clean up and remove unused cloud services (by resource groups).</p>
         <p>Usually, the data source for the API would be accessing a live database. There are limited options when developing and testing projects at zero to near-zero cost. I've used SQLite successfully for proof-of-cost projects. My preference would be to use a cloud-deployed RDBMS, like Azure SQL, but that comes at a cost, so for the proof of concept, I elected to mock-up the data for this example. The nice thing about the design is that the front-end application can be developed using this API, and then if the data source changes, the API can be updated with no change to the web application.</p>
     </div>
