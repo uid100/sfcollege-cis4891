@@ -1,63 +1,33 @@
-<div id="requirements" style="padding: 20px;">
-    <div id="background" style="padding: 20px;">
-        <h2 class="alert">Defining Requirements</h2>
-        <p>In the last module, we talked about generating User-Stories from thoughtful conversations with the intended user or customer, ideally in the context of the target operating environment. From these User Stories, a solution can be proposed and system Use-Cases developed.</p>
-        <p>This usually leads to generation of formal requirements.</p>
-        <p>Large, formal projects can typically generate hundreds of requirements. These formal requirements ensure that projects meet as well as stay within scope the scope of contracted work. In simple terms, to make sure the customer gets what they're paying for, and so that the development team gets paid for what they deliver.</p>
-        <p>So for most projects, requirements are a very important part of the development process.</p>
-        <p>It is not unusual for large contracted projects to have teams of engineers working on requirements management. These engineers try to ensure that the customer's objectives and the designed solution match and that the understood objectives are clearly communicated between the customer and the development team. This requires considerable back and forth communications to ensure that the customer knows what they are ordering and that the development team stays within those bounds.</p>
-        <p>There are formal document templates for writing standard requirements specification documents, but we are only going to focus on a very small piece of that, writing and recognizing <em>good</em> requirements.</p>
-    </div>
-    <div id="good-requirements" style="padding: 20px;">
-        <h2 class="alert">Writing Good Requirements</h2>
-        <ul>A good requirement definition should be:
-            <li>Clear: It should be well-defined, easy to understand and free of ambiguity.</li>
-            <li>Complete: It should include all necessary information, including constraints and assumptions, to fully describe the requirement.</li>
-            <li>Consistent: It should not contradict other requirements and should align with the overall project goals and objectives.</li>
-            <li>Traceable: It should be traceable to the source of the requirement, such as customer needs, business goals, and regulatory requirements.</li>
-            <li>Verifiable: It should be testable, measurable and have clear acceptance criteria.</li>
-            <li>Relevant: It should be directly related to the project and necessary for its successful completion.</li>
-            <li>Prioritized: Requirements should be prioritized based on their importance, feasibility, and dependencies.</li>
+<div id="preliminary-design-review" style="padding: 20px;">
+    <div id="overview">
+        <h2 class="alert">Preliminary Design Review</h2>
+        <p>In the last module, you prepared a set of design artifacts.</p>
+        <ul>
+            <li>Description and README</li>
+            <li>Solution architecture diagram</li>
+            <li>Wireframe diagram(s)</li>
+            <li>User Stories</li>
+            <li>Initial Use Cases</li>
+            <li>Use Case Diagram</li>
         </ul>
-        <p>By having these characteristics, a requirement definition can help ensure that the final product meets the needs and expectations of stakeholders and supports the success of the project.</p>
+        <p style="font-style: italic;">The design documents in your readme will tell a visitor a story and communicate your vision for your project application.</p>
+        <p>Your project repository is a work-in-progress. This week, you'll be adding to it. It's a good idea and usually a project requirement, to share project progress and status with others to get feedback and comments.</p>
+        <p>In a formal project, there are a series of phased reviews after a development contract is in place. Commonly, the requirements will go through a round of reviews, culminating with a <em>final</em> requirements review, which is formally agreed to and signed off by the customer, before the design phase officially kicks off.</p>
+        <p>At some point, the design team presents their preliminary design documents to the customer and other stakeholders to get approval that the design is consistent with the requirements and is achievable and that it all are in agreement. Like other reviews, this review activity may repeat some number of times until the stakeholders agree on the project direction.</p>
+        <p>Sometimes the customer doesn't know what they want until they see what they don't want.</p>
     </div>
-    <div id="reqt-decomp" style="padding: 20px;">
-        <h2 class="alert">Decomposing Requirements</h2>
-        <p>Requirements decomposition is the process of breaking down high-level requirements into smaller, more specific and manageable parts. It helps to clarify, organize and prioritize requirements, and to ensure that each requirement can be traced back to its origin.</p>
-        <p>&nbsp;</p>
-        <ul>Decomposition can occur at different levels:
-            <li>From user requirements to system requirements: The process of identifying and documenting the high-level functional and non-functional requirements that the system must meet to satisfy its users.</li>
-            <li>From system requirements to software requirements: The process of defining the software functions and characteristics that are necessary to implement the system requirements.</li>
-            <li>From software requirements to component requirements: The process of specifying the detailed requirements for individual software components that make up the overall software system.</li>
-        </ul>
-        <p>&nbsp;</p>
-        <p>The goal of requirements decomposition is to ensure that each requirement is specific, testable, and traceable, and that all requirements are covered and accounted for in the final product.</p>
-        <p>The lower level requirements (system, software, component) always should directly support the top level requirements (usually called the user requirements)</p>
-        <p>The idea is that if the all of the lower level requirements are met, then the top-level requirements are thought to be met also.</p>
-        <p>Here's an example of a decomposed requirement from a top-level requirement:</p>
-        <dl>
-            <dt>Top-level requirement:</dt>
-            <dd>2.0 "The software must allow users to manage their personal finances."</dd>
-            <dt>Decomposed requirements:</dt>
-            <dd>2.1 "The software must allow users to input and categorize their income and expenses."</dd>
-            <dd>2.2 "The software must provide a summary of users' spending by category."</dd>
-            <dd>2.3 "The software must allow users to set budgets for each spending category and track their progress towards their budget goals."</dd>
-            <dd>2.4 "The software must provide users with a visual representation of their income and expenses over time."</dd>
-            <dd>2.5 "The software must allow users to generate reports for tax purposes."</dd>
-        </dl>
-        <p>These decomposed requirements provide more detail and specificity to the top-level requirement, making it easier to understand and implement. Each decomposed requirement can be further decomposed into smaller, more manageable parts if necessary.</p>
-    </div>
-    <div id="req-mgmt" style="padding: 20px;">
-        <h2 class="alert">Managing Requirements</h2>
-        <p>Requirements management encompasses several activities, from capturing originating requirements from investigation with stakeholders (customers, end-users, subject-matter experts and project teams), analysis, documentation, prioritization, and requirements tracing.</p>
-        <p>Requirements tracing includes ensuring that decomposed requirements accurately and completely support higher level requirements and that all requirements are correctly verified and validated.</p>
-        <p>To further complicate the issue, requirements change.</p>
-        <p>There are many things that can drive requirements change. Sometimes regulation compliance issues arise which could not have been anticipated, or a dependency on am external interface which is no longer supported, or the customer's need or perception changes.</p>
-        <p>An important part of requirements management is minimizing requirements volatility and analyzing the impacts with they do change.</p>
-        <p>&nbsp;</p>
+    <div id="instructions">
+        <h2 class="alert">Instructions</h2>
+        <h3>Initial Post (25 points)</h3>
+        <p style="background-color: yellow;">Complete this initial post not later than Wednesday night, so that others have time for their review.</p>
+        <p>For this discussion activity, your initial post should contain a link to your repository (and the README), and a brief paragraph describing the project and the current status of the design documents.</p>
+        <p>If you haven't already done so, consider adding a table of contents at or near the top of your README, using each of your section headers, to make it more organized and make all of your design documents easy to find.</p>
+        <p>The README should both describe the project and show the evolution and the status of the project.</p>
         <hr />
-        <p style="font-style: italic;">So... the requirements are WHAT???</p>
-        <p style="text-align: center;"><iframe title="YouTube video player" src="https://www.youtube.com/embed/BKorP55Aqvg" width="560" height="315" loading="lazy" allowfullscreen="allowfullscreen" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe></p>
+        <h3>Next (25+25+25 points)</h3>
+        <p>Review 3 other students' projects and provide thoughtful, meaningful feedback, questions, and suggestions.</p>
+        <p>Sharing of information is a good thing. Some students may be inspired by some of the work others are doing and might employ some of the ideas from them. This collaborative work benefits all of us. As a group, it should be a goal to make all of these projects as professional as possible.</p>
+        <p>All projects benefit from diverse perspectives. As always, keep your comments respectful.</p>
+        <p>Note: This is a review of a document and project in progress. Even this week, more is being added to the repository. The review should focus on the completed design artifacts first. Your feedback should include actionable technical change suggestions, not just "cool idea" or "great job"</p>
     </div>
-    <p>&nbsp;</p>
 </div>
